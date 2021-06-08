@@ -73,6 +73,7 @@ const SkillHeader = styled.div`
 
 const Flex = styled.div`
    display: flex;
+   
    justify-content: space-between;
 
    img {
@@ -80,6 +81,14 @@ const Flex = styled.div`
        margin-top: 40px;
        width:95%;
    }
+
+   @media (max-width: 460px){
+    img{
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+}
 `;
 
 const FlexCol = styled.div`
@@ -91,11 +100,13 @@ const FlexCol = styled.div`
        margin-top: 40px;
        margin-left: 10px;
    }
+   
 
-   @media (max-width: 420px){
+   @media (max-width: 460px){
        img{
-           height: 35px;
-           width: 80%;
+           
+           height: 30px !important;
+           width: 50%;
        }
 
        
