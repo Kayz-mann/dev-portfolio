@@ -82,7 +82,7 @@ const Flex = styled.div`
        width:95%;
    }
 
-   @media (max-width: 460px){
+   @media (max-width: 480px){
     img{
         height: 40px;
         display: flex;
@@ -102,9 +102,10 @@ const FlexCol = styled.div`
    }
    
 
-   @media (max-width: 460px){
+   @media (max-width: 480px){
        img{
-           
+           display: flex;
+           flex-direction:column;
            height: 30px !important;
            width: 50%;
        }
