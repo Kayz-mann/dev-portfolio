@@ -87,6 +87,7 @@ const Flex = styled.div`
         height: 40px;
         display: flex;
         flex-direction: column;
+        width: 50%;
     }
 }
 `;
