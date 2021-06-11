@@ -101,10 +101,7 @@ const FlexCol = styled.div`
        margin-left: 10px;
    }
 
-   @media (max-width: 320px){
-    img{
-        height: 15px !important;
-    }
+   
    
 
    @media (max-width: 460px){
