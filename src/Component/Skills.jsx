@@ -79,15 +79,14 @@ const Flex = styled.div`
    img {
        height: 80px;
        margin-top: 40px;
-       width:95%;
+       
    }
 
-   @media (max-width: 480px){
+   @media (max-width: 460px){
     img{
         height: 40px;
         display: flex;
         flex-direction: column;
-        width: 50%;
     }
 }
 `;
@@ -103,16 +102,24 @@ const FlexCol = styled.div`
    }
    
 
-   @media (max-width: 480px){
+   @media (max-width: 460px){
        img{
-           display: flex;
-           flex-direction:column;
            height: 30px !important;
            width: 50%;
        }
 
        
    }
+
+   @media (max-width: 482px){
+    img{
+        height: 35px !important;
+        margin-left: 30px;
+        
+    }
+
+    
+}
 
 
 `;
@@ -137,7 +144,8 @@ function Skills() {
             <img src={node} alt="/node" />
             </Flex>
             <h2>Database</h2>
-            <p>I succesfully created a two way asynchronus database connection to achieve a real time application.I also tried out a case where an application can work with two databases at once in case the server of a db is down using mongo and firebase</p>
+            <p>I succesfully created a two way asynchronus database connection to achieve a real time application.<br />
+            I also tried out a case where an application can work with two databases at once in case the server of a db is down using mongo and firebase</p>
             <FlexCol>
                 <img src={mongodb} alt="/mongodb" />
                 <img src={firebase} alt="/firebase" />
