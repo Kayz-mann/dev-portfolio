@@ -7,6 +7,7 @@ import facebook from "../img/facebook.png"
 import amazon from "../img/amazon.png"
 import spotify from "../img/spotify.png"
 import netflix from "../img/netflix.png"
+import telegram from "../img/telegram.png"
 
 const Slide = styled.div`
 
@@ -58,6 +59,10 @@ function PorfolioSlide()
                 <span>
                 <a target="_blank" rel="noreferrer" href="https://netflix-clone-react-bab60.web.app/"><img src={netflix} className="sliderimg" alt="/netflix" rel="noreferrer" /></a>
                  <h1>Netflix Clone</h1>
+                </span>
+                <span>
+                <a target="_blank" rel="noreferrer" href="https://telegram-snippet.web.app/"><img src={telegram} className="sliderimg" alt="/telegram" rel="noreferrer" /></a>
+                 <h1>Telegram Clone</h1>
                 </span>
             </AliceCarousel>
             
