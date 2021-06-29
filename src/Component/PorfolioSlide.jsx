@@ -9,6 +9,7 @@ import spotify from "../img/spotify.png"
 import netflix from "../img/netflix.png"
 import telegram from "../img/telegram.png"
 import tesla from "../img/tesla.png"
+import robinhood from "../img/robinhood.png"
 
 const Slide = styled.div`
 
@@ -44,6 +45,10 @@ function PorfolioSlide()
                 <span>
                 <a target="_blank" rel="noreferrer" href="https://uptown-luxury.herokuapp.com/"><img src={uptown} className="sliderimg" alt="/uptown luxury" rel="noreferrer" /></a>
                  <h1>E-commerce App</h1>
+                </span>
+                <span>
+                <a target="_blank" rel="noreferrer" href="https://robinhood-clone-17d92.web.app/"><img src={robinhood} className="sliderimg" alt="/robinhood" rel="noreferrer" /></a>
+                 <h1>Robinhood-UI</h1>
                 </span>
                 <span>
                 <a target="_blank" rel="noreferrer" href="https://facebook-messenger-clone-f93a1.web.app/"><img src={facebook} className="sliderimg" alt="/facebook" rel="noreferrer" /></a>
