@@ -17,12 +17,10 @@ function App() {
       <Burger />
       <About />
       <Portfolio />
-      </div>
+     </div>
       <img src={background} alt="/background" />
       <Skills />
       <img src={footer} className="footer" alt="/footer" />
-      
-      
       </Router>
     </div>
   );
