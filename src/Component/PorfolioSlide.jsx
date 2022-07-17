@@ -112,11 +112,18 @@ const Slide = styled.div`
         }
 
         h4 {
-            width: 300px;
+            width: 320px;
             align-items: center;
             text-align: center;
-            font-size: 14px;
-            margin-left: -55px;
+            line-height: 16px;
+            font-size: 12px;
+            word-wrap: break-word;
+            margin-left: -75px;
+            position: relative;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; 
+                    line-clamp: 3; 
+            -webkit-box-orient: vertical;
         }
 
         a{
@@ -127,7 +134,7 @@ const Slide = styled.div`
 
         button{
             width: 14px;
-            margin-left: -40px;
+            margin-left: -55px;
             
         }
     }
