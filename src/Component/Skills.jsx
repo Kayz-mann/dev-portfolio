@@ -9,6 +9,7 @@ import mongodb from "../svg/mongodb.png"
 import sql from "../svg/sql.png"
 import arduino from "../svg/arduino.png"
 import raspberry from "../svg/raspberry.png"
+import typescript from '../svg/typescript.png';
 import styled from 'styled-components';
 
 
@@ -144,7 +145,7 @@ function Skills() {
             <Flex>
             <img src={html} alt="/html" />
             <img src={css} alt="/css" />
-            <img src={javascript} alt="/javascript" />
+            <img src={typescript} alt="/typescript" />
             <img src={react} alt="/react" />
             </Flex>
             <h2>Backend</h2>

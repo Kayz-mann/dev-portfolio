@@ -105,6 +105,12 @@ const Header = styled.div`
        }
    }
 
+   @media (max-width: 395px){
+    .mobile-white {
+        margin-top: 5px;
+    }
+   }
+
    @media (max-width: 380px){
        .mobile-white {
            color: #fff;

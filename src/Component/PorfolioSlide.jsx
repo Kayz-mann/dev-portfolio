@@ -138,6 +138,12 @@ const Slide = styled.div`
             
         }
     }
+
+    @media (max-width: 395px) {
+        h4{
+            margin-left: -87px;
+        }
+    }
    
    
     }
