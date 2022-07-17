@@ -93,23 +93,42 @@ const Slide = styled.div`
         width: 100%;
         align-items: center;
         justify-content: center;
+        margin-left: -60px;
+
+        .alice-carousel__dots {
+            margin-left: 100px;
+        }
+
+        span{
+            text-align: center;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            
+        }
 
         h1{
             font-size: 16px;
         }
 
         h4 {
-            width: 100%;
+            width: 300px;
+            align-items: center;
+            text-align: center;
             font-size: 14px;
+            margin-left: -55px;
         }
 
         a{
-            margin-left: -20px;
+            // margin-right: 10px;
+            
+            
         }
 
         button{
-
-            margin-left: 25px;
+            width: 14px;
+            margin-left: -40px;
+            
         }
     }
    

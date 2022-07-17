@@ -55,7 +55,7 @@ const SkillHeader = styled.div`
     }
 
    @media (max-width: 420px){
-       margin-top: 1100px;
+       margin-top: 1250px;
     text-align: center;
     justify-content: center;
     align-items: center;
