@@ -13,8 +13,10 @@ import styled from 'styled-components';
 
 
 const SkillHeader = styled.div`
-   margin-top: 300px;
+   overflow: hidden;
+   margin-top: 500px;
    margin-bottom: 100px;
+
    
    h1 {
       
@@ -44,8 +46,12 @@ const SkillHeader = styled.div`
       }
    }
 
+   @media (max-width: 820px){
+    margin-top: 970px;
+ }
+
    @media (max-width: 770px){
-       margin-top:900px;
+       margin-top:1100px;
     }
 
    @media (max-width: 420px){
@@ -73,7 +79,7 @@ const SkillHeader = styled.div`
 
 const Flex = styled.div`
    display: flex;
-   
+   overflow: hidden;
    justify-content: space-between;
 
    img {
@@ -92,6 +98,7 @@ const Flex = styled.div`
 `;
 
 const FlexCol = styled.div`
+   overflow: hidden;
    display: flex;
    justify-content: space-between;
 

@@ -14,6 +14,7 @@ const Header = styled.div`
    margin-left: 50px;
    display: flex;
    flex-direction: column;
+   overflow: hidden;
    h1 {
        color: #fff;
    }
@@ -46,6 +47,8 @@ const Header = styled.div`
    .MuiSvgIcon-root:hover {
     transform: scale(1.09);
   }
+
+}
 
    @media (max-width: 768px) {
        p{

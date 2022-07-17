@@ -2,25 +2,35 @@ import React from 'react'
 import styled from "styled-components"
 import PortfolioSlide from './PorfolioSlide';
 
+const Layout = styled.div`
+     margin-bottom: 300px;
+
+     @media (max-width: 820px){
+       margin-top: -650px;
+    }
+
+    @media (max-width: 420px) {
+        margin-top: -150px;
+    }
+
+`;
+
 const Header = styled.div`
     //   margin-top: -400px;
         margin-top: 300px;
+        margin-bottom: 100px;
         margin-right: 300px;
-        float:right;
         justify-content: center;
         place-items: center;
-        width: 50%;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
         
-        
-
-        
-     
-
-      
      h1 {
          color: #fff;
          left: 0;
          margin-left: 50px;
+         margin-top: 200;
          
         }
 
@@ -30,6 +40,13 @@ const Header = styled.div`
             margin-right: 40px;
             h1 {
                 margin-top: -80px;
+            }
+        }
+
+        @media (max-width: 820px){
+            h1 {
+                color: #000;
+                margin-top: 500px;
             }
         }
 
@@ -64,10 +81,12 @@ const Header = styled.div`
 
 function Portfolio() {
     return (
+        <Layout>
         <Header>
             <h1 id="portfolio">Portfolio</h1>
-            <PortfolioSlide className="slide" />
         </Header>
+        <PortfolioSlide className="slide" />
+        </Layout>
     )
 }
 
